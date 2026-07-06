@@ -28,15 +28,18 @@ body {
 	font-family: 'Times New Roman', Times, sans-serif;
 }
 
+#background {
+	text-align: center;
+}
 
 /* Heading Styles */
 
 h1, h2 {
 	color: rgb(0, 100, 0);
 	background-color: rgb(173,216,230);
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: 'Times New Roman', Times, sans-serif;
-	letter-spacing: 0.1em;
+	letter-spacing: 0em;
 	text-align: center;
 }
 
@@ -45,10 +48,7 @@ h1, h2 {
 
 nav {
 	font-size: 1em;
-}
-
-nav > ul {
-	line-height: 1.5em;
+	line-height: 1em
 }
 
 /* Footer Styles */
