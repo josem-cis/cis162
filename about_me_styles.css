@@ -25,7 +25,7 @@ html {
 body {
 	color: rgb(0, 100, 0);
 	background-color: ivory;
-	font-family; 'Times New Roman', Times, sans-serif;
+	font-family: 'Times New Roman', Times, sans-serif;
 }
 
 
@@ -35,7 +35,7 @@ h1, h2 {
 	color: rgb(0, 100, 0);
 	background-color: rgb(173,216,230);
 	font-size: 1.5em;
-	font-family; 'Times New Roman', Times, sans-serif;
+	font-family: 'Times New Roman', Times, sans-serif;
 	letter-spacing: 0.1em;
 	text-align: center;
 }
@@ -57,7 +57,7 @@ footer {
 	background-color: rgb(173,216,230);
 	color: white; 
 	color: rgba(0, 0, 0);
-	font: normal bold 0.9em/3em
-		font-family; 'Times New Roman', Times, sans-serif;
+	font: normal bold 0.9em/3em;
+	font-family: 'Times New Roman', Times, sans-serif;
 	text-align: center;
 }
