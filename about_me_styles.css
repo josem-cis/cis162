@@ -6,58 +6,196 @@
 }
 
 /*
-   Project 1-3
+   Project 1-4
    
    Author: Jose Martinez
-   Date:   7/5/26
+   Date:   7/12/26
    
    Filename: about_me_styles.css
 
 */
 
+/* Typographic Style */
+
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1;
+}
 
 /* HTML and Body Styles */
 
 html {
 	background-color: rgb(60, 179, 113);
+	font-family: 'Times New Roman', Times, sans-serif;
 }
 
 body {
 	color: rgb(0, 100, 0);
-	background-color: ivory;
 	font-family: 'Times New Roman', Times, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	min-width: 1000px;
+	width: 95%;
 }
 
-#background {
-	text-align: center;
+body > header > nav.horizontalNavigation li {
+	width: 33.33%;
+	background-color: ivory;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Left Column Styles */
+
+section#leftColumn {
+	clear: left;
+	float: left;
+	width: 50%;
+	background-color: rgb(152, 133, 88);
+	color: ivory;
+	padding: .5em;
+}
+
+section#leftColumnAbout {
+	clear: left;
+	float: left;
+	width: 50%;
+	background-color: rgb(152, 133, 88);
+	color: ivory;
+	padding: .5em;
+}
+
+section#leftColumnSchool {
+	clear: left;
+	float: left;
+	width: 50%;
+	background-color: rgb(152, 133, 88);
+	color: ivory;
+	padding: .5em;
+}
+
+section#leftColumn img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+    
+/* Right Column Styles */
+
+section#rightColumn {
+	float: left;
+	width: 50%;
+	display: block;
+	background-color: rgb(173,216,230);
+	padding: .5em;
+}
+
+section#rightColumnAbout {
+	float: left;
+	width: 50%;
+	display: block;
+	background-color: rgb(173,216,230);
+	padding: .5em;
+}
+
+section#rightColumnSchool {
+	float: left;
+	width: 50%;
+	display: block;
+	background-color: rgb(173,216,230);
+	padding: .5em;
+	min-height: 286px;
+}
+
+ul.hobbies, ul.edGoals, ul.skills {
+	padding: 1em;
 }
 
 /* Heading Styles */
 
 h1, h2 {
 	color: rgb(0, 100, 0);
-	background-color: rgb(173,216,230);
 	font-size: 2em;
 	font-family: 'Times New Roman', Times, sans-serif;
 	letter-spacing: 0em;
 	text-align: center;
 }
 
+body > header > h1 {
+	display: block;
+	width: 100%;
+	background-color: rgb(173,216,230);
+	margin: 0;
+	padding: 10px 0;
+}
 
 /* Navigation Styles */	
 
-nav {
+
+nav > ul {
 	font-size: 1em;
 	line-height: 1em
 }
 
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation li {
+	display: block;
+	float: left;
+}
+
+nav.horizontalNavigation a {
+	display: block;
+   	font-size: 1em;
+   	line-height: 1.8em;
+   	text-align: center;
+}
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   	color: rgb(0, 100, 0);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(173,216,230);
+}   
+
 /* Footer Styles */
 
 footer {
-	background-color: rgb(173,216,230);
-	color: white; 
+	clear: left;
+}
+
+footer > section#contactInfo {
+	background-color: ivory;
 	color: rgba(0, 0, 0);
 	font: normal bold 0.9em/3em;
 	font-family: 'Times New Roman', Times, sans-serif;
 	text-align: center;
+   	margin: auto;
 }
